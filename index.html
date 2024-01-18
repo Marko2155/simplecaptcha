@@ -1,0 +1,8 @@
+<dialog id="captcha" style="background-color: #d90047; border: 5px solid black; width: 300px;">
+<h1 id="stdout" style="background-color: white; width: 100px">RAND</h1>
+<input id="stdin" type="number" placeholder="Solve this CAPTCHA." max="9999"></input>
+<button id="stdconf">Confirm</button>
+</dialog>
+<button id="openCaptcha" onClick="document.getElementById('captcha').show(); document.getElementById('openCaptcha').hidden = true;">Open Captcha</button>
+<p id="pHidden" hidden>Nice, you solved the captcha!</p>
+<script src="index.js"></script>
